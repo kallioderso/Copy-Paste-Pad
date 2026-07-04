@@ -7,14 +7,14 @@ bool copy = false;
 bool paste = false;
 
 enum custom_keycodes {
-    CP1 = SAFE_RANGE,
-    CP2 = SAFE_RANGE,
-    CP3 = SAFE_RANGE,
-    CP4 = SAFE_RANGE,
-    CP5 = SAFE_RANGE,
-    CP6 = SAFE_RANGE,
-    CCM = SAFE_RANGE,
-    PCM = SAFE_RANGE
+    CP1 = QK_USER,
+    CP2,
+    CP3,
+    CP4,
+    CP5,
+    CP6,
+    CCM,
+    PCM
 }
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -38,12 +38,12 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case CCM:
         if(record->event.pressed){
-            if(!Copying){
-                Copying = true;
+            if(!copy){
+                copy = true;
                 update_oled();
             }
             else{
-                Copying = false;
+                copy = false;
                 update_oled();
             }
             
@@ -54,12 +54,12 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     
     case PCM:
         if(record->event.pressed){
-            if(!Pasting){
-                Pasting = true;
+            if(!paste){
+                paste = true;
                 update_oled();
             }
             else{
-                Pasting = false;
+                paste = false;
                 update_oled();
             }
         }
@@ -77,13 +77,12 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 void update_oled() {
     oled_clear();
 
-    if(Copying && Pasting)
+    if(copy && paste)
         oled_write_ln_P(PSTR("Copy + Paste"), false);
-    else if(Copying)
+    else if(copy)
         oled_write_ln_P(PSTR("Copy"), false);
-    else if(Pasting)
+    else if(paste)
         oled_write_ln_P(PSTR("Paste"), false);
 }
 
 #endif
-

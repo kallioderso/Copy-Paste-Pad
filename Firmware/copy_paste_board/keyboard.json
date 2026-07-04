@@ -8,8 +8,7 @@
         "bootmagic": true,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true,
-        "oled": true
+        "nkro": true
     },
     "matrix_pins": {
         "cols": ["D0", "D1", "D2"],
