@@ -11,8 +11,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["D0", "D1", "D2"],
-        "rows": ["D3", "D6", "D7"]
+        "cols": ["GP26", "GP27", "GP28"],
+        "rows": ["GP29", "GP0", "GP1"]
     },
     "processor": "RP2040",
     "url": "https://github.com/kallioderso/Copy-Paste-Pad",
