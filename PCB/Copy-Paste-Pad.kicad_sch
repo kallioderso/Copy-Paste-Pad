@@ -969,16 +969,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 45.72) (xy 101.6 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "324125eb-abce-4eef-bf98-0ab4071c16a8")
-	)
-	(wire
-		(pts
 			(xy 234.95 101.6) (xy 247.65 101.6)
 		)
 		(stroke
@@ -1089,6 +1079,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 50.8) (xy 101.6 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da71902-62b9-4fe3-a40f-c5358a253719")
+	)
+	(wire
+		(pts
 			(xy 214.63 101.6) (xy 234.95 101.6)
 		)
 		(stroke
@@ -1179,6 +1179,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 50.8) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb96940-9597-48a5-a239-6d4f159e0d93")
+	)
+	(wire
+		(pts
 			(xy 234.95 78.74) (xy 247.65 78.74)
 		)
 		(stroke
@@ -1206,16 +1216,6 @@
 			(type default)
 		)
 		(uuid "ee2c2707-9329-4205-8690-2077ad99bd3d")
-	)
-	(wire
-		(pts
-			(xy 76.2 45.72) (xy 101.6 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb32927-c3dd-4c94-9a18-7646fe4b3472")
 	)
 	(global_label "Column 1"
 		(shape input)
