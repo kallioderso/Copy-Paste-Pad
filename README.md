@@ -21,3 +21,29 @@ The Casing is one of the most important things of an Keyboard, as it determines 
 
 ![Casing Bottom](./Images/image4.png)
 ![Casing Bottom](./Images/image3.png)
+
+as wood is a great material, appearing in high quality and therefore more professional i as well created the entire ***bottom half*** of the casing as **.dxf** just as the ***top part***, which unfortunatly could just be made by a laser, as a CNC machine would struggle with the fine borders beetwheen each key switch.
+
+![CNC-machining_1](./Images/image9.png)
+![finished-Casing](./Images/image8.png)
+
+## Firmware
+besides all the hardware, the firmware is what makes a product standing out from others, therefore the mission was clear. 1 key to activate the so called *copying mode*, one other key to activate the *pasting mode*. both of which would **stay active** until you decide to deactivate them.
+
+so the only remaining thing would be to press the wanted key switch for the different (out of **6**) clipboards.
+
+to achieve this the keyboard needs both, a **own firmware**. as well as a **.exe Application** running on the PC himself to performe all the Copying and Pasting things the keyboard itself isnt allowed.
+
+
+### QMK
+the QMK firmware consists of the [v1](./Firmware/copy_paste_board/keymaps/v1/) keymap, presenting almost every smart thing and function in general provided by the keyboard. this gets underlined by the [rules](./Firmware/copy_paste_board/rules.mk) set to make working with **hid** (human interface device) and the **OLED screen** possible.
+
+Last but not least is there the [keyboard info](./Firmware/copy_paste_board/keyboard.json) providing every basic information about the producer, its components and the **key matrix**, consisting of **Rows** and **Columns**
+
+
+### Windows Application
+the Womdpws Application in form of an **.exe** is where the fun begins. it gets **hid** (human interface device) signals by the QMK firmware, telling it what action to performe.
+
+Whether its **Copying**, **Pasting** or just doing nothing, the **hid** is the source of decision.
+
+to prevent the user from having to start this Script each time they start their PCs, it is so smart that it writes itself into the **Auto start** after the *first* execution of itself. making it possible to use the keyboard without any action.
