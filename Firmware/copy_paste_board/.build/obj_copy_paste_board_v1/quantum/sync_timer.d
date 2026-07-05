@@ -1,0 +1,14 @@
+.build/obj_copy_paste_board_v1/quantum/sync_timer.o: quantum/sync_timer.c \
+ keyboards/copy_paste_board/config.h \
+ .build/obj_copy_paste_board_v1/src/info_config.h \
+ platforms/chibios/boards/GENERIC_PROMICRO_RP2040/configs/config.h \
+ platforms/chibios/config.h quantum/sync_timer.h platforms/timer.h \
+ platforms/chibios/_timer.h quantum/keyboard.h
+keyboards/copy_paste_board/config.h:
+.build/obj_copy_paste_board_v1/src/info_config.h:
+platforms/chibios/boards/GENERIC_PROMICRO_RP2040/configs/config.h:
+platforms/chibios/config.h:
+quantum/sync_timer.h:
+platforms/timer.h:
+platforms/chibios/_timer.h:
+quantum/keyboard.h:
