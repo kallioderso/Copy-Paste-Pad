@@ -1,0 +1,84 @@
+        Custom Non‑Commercial Software License (CNSL)
+                  Version 1.0 — 2026  
+            Copyright (c) 2026 Pascal Lösch
+
+1. Grant of License
+    The Licensor hereby grants a non-exclusive, non-transferable, 
+    revocable license to use, execute, and modify this Software 
+    solely for private, non-commercial purposes.
+
+    No rights are granted beyond those explicitly stated in this License.
+
+2. Prohibition of Commercial Use
+    Any and all commercial use is strictly prohibited.
+    Commercial use includes, but is not limited to:
+    -  selling, renting, leasing, sublicensing, or otherwise monetizing the Software
+    -  using the Software in any commercial product, service, or workflow
+    -  using the Software in SaaS, hosting, cloud, or server environments with revenue intent
+    -  using the Software within companies, organizations, or institutions engaged in economic activity
+    -  using the Software to directly or indirectly generate income, financial gain, or business advantage
+    Any commercial use requires prior written permission from the Licensor.
+
+3. Redistribution
+    Redistribution of the Software or modified versions is permitted only under the following conditions:
+    -  the complete and unmodified text of this License must be included
+    -  redistribution must be strictly non-commercial
+    -  modified versions must be clearly marked as modified
+    -  the name “Pascal Lösch” may not be used to endorse derivative works without explicit permission
+
+4. Prohibited Actions
+    Without explicit written permission from the Licensor, the following actions are prohibited:
+    -  commercial use of any kind
+    -  reverse engineering, decompiling, or disassembling the Software, except where legally mandatory
+    -  automated scraping, mass data extraction, or inclusion in AI training datasets
+    -  use in safety-critical systems (medical, transportation, industrial control, etc.)
+    -  use for unlawful, harmful, or malicious purposes
+    -  removal or alteration of copyright notices or license terms
+
+5. Intellectual Property
+    All intellectual property rights remain solely with the Licensor, Pascal Lösch.
+    This License does not transfer ownership of the Software or any related rights.
+
+6. No Warranty
+    The Software is provided “AS IS”, without any express or implied warranty.
+    This includes, but is not limited to, warranties of:
+    -  merchantability
+    -  fitness for a particular purpose
+    -  non-infringement
+    -  correctness, reliability, or security
+    -  compatibility or performance
+    The user assumes all risks associated with the use of the Software.
+
+7. Limitation of Liability
+    To the maximum extent permitted by applicable law, 
+    Pascal Lösch shall not be liable for any damages arising from the use, 
+    inability to use, or distribution of the Software.
+    This includes, but is not limited to:
+    -  direct, indirect, incidental, special, punitive, or consequential damages
+    -  data loss
+    -  system failures
+    -  security breaches
+    -  damages caused by modifications or redistribution
+    This limitation applies even if the Licensor has been advised of the possibility of such damages.
+
+8. Data Protection & Privacy
+    The Licensor assumes no responsibility for the processing of personal data by the user.
+    The user is solely responsible for compliance with all applicable data protection laws, 
+    including the GDPR (General Data Protection Regulation).
+
+9. Termination
+    The Licensor may revoke this License at any time if the user violates any of its terms.
+
+    Upon termination:
+    -  all rights granted under this License cease immediately
+    -  the user must delete all copies of the Software and derivative works
+    -  continued use of the Software is strictly prohibited
+
+10. Governing Law
+    This License shall be governed by and interpreted in accordance with the laws of the Federal Republic of Germany.
+    If any provision of this License is found invalid or unenforceable, 
+    the remaining provisions shall remain in full force and effect.
+
+Acceptance
+    By using, copying, modifying, or distributing this Software, you acknowledge that you have read, understood, 
+    and agreed to all terms of this License.
